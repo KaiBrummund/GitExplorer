@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/main_button_refresh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh List" />
+    <Button
+        android:text="Go to Github"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_button_website" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminate="true"
+        android:id="@+id/main_progressBar"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateOnly="true" />
+    <ListView
+        android:id="@+id/main_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>
